@@ -54,11 +54,15 @@ def sprite_sideattack():
         frame = (frame + 1)
         delay(0.1)
     pass
-
+def sprite_downattack()
+    pass
 while True:
     #sprite_run()
     #delay(1)
-    sprite_sideattack()
+    #sprite_sideattack()
+    #delay(1)
+    sprite_downattack()
+    delay(1)
 
 
 
