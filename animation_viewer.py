@@ -54,7 +54,16 @@ def sprite_sideattack():
         frame = (frame + 1)
         delay(0.1)
     pass
-def sprite_downattack()
+
+def sprite_downattack():
+    frame = 0
+    for x in range(20):
+        clear_canvas()
+        grass.draw(400, 30)
+        character.clip_draw(5+frame * 50, 553, 50, 78, 400, 300, 200, 200)
+        update_canvas()
+        frame = (frame + 1) % 5
+        delay(0.1)
     pass
 while True:
     #sprite_run()
