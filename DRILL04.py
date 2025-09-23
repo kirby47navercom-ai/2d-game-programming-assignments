@@ -4,17 +4,6 @@ open_canvas()
 
 grass = load_image('grass.png')
 character = load_image('girl.png')
-frame =0
-
-def sprite_run():
-    pass
-
-
-while True:
-    sprite_run()
-
-
-
 
 
 close_canvas()
