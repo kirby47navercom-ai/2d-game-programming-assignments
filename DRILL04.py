@@ -15,12 +15,13 @@ def sprite_run():
         frame = (frame + 1) % 8
         delay(0.1)
     pass
-
+def sprite_sideattack():
+    pass
 
 while True:
     sprite_run()
-
-
+    delay(1)
+    sprite_sideattack()
 
 
 
