@@ -76,16 +76,59 @@ def sprite_jump():
         delay(0.1)
     pass
 def sprite_spinattack():
+    for x in range(5):
+        frame = 0
+        clear_canvas()
+        grass.draw(400, 30)
+        character.clip_draw(frame * 65, 246, 59, 78, 350, 300, 200, 200)
+        update_canvas()
+        frame = (frame + 1)
+        delay(0.1)
+
+        clear_canvas()
+        grass.draw(400, 30)
+        character.clip_draw(frame * 65, 246, 59, 78, 370, 300, 200, 200)
+        update_canvas()
+        frame = (frame + 1)
+        delay(0.1)
+
+        clear_canvas()
+        grass.draw(400, 30)
+        character.clip_draw(frame * 65, 246, 55, 78, 390, 300, 200, 200)
+        update_canvas()
+        frame = (frame + 1)
+        delay(0.1)
+
+        clear_canvas()
+        grass.draw(400, 30)
+        character.clip_draw(frame * 65-18, 246, 55+70, 78, 420, 300, 400, 200)
+        update_canvas()
+        frame = (frame + 1)
+        delay(0.1)
+
+        clear_canvas()
+        grass.draw(400, 30)
+        character.clip_draw(40+frame * 65, 246, 55+30, 78, 470, 300, 300, 200)
+        update_canvas()
+        frame = (frame + 1)
+        delay(0.1)
+
+        clear_canvas()
+        grass.draw(400, 30)
+        character.clip_draw(frame * 95, 246, 55 + 30, 78, 450, 300, 300, 200)
+        update_canvas()
+        frame = (frame + 1)
+        delay(0.1)
     pass
 while True:
-    # sprite_run()
-    # delay(1)
-    # sprite_sideattack()
-    # delay(1)
-    # sprite_downattack()
-    # delay(1)
-    #sprite_jump()
-    #delay(1)
+    sprite_run()
+    delay(1)
+    sprite_sideattack()
+    delay(1)
+    sprite_downattack()
+    delay(1)
+    sprite_jump()
+    delay(1)
     sprite_spinattack()
     delay(1)
 
