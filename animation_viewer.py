@@ -66,7 +66,14 @@ def sprite_downattack():
         delay(0.1)
     pass
 def sprite_jump():
-
+    frame = 0
+    for x in range(20):
+        clear_canvas()
+        grass.draw(400, 30)
+        character.clip_draw(frame * 50, 480, 50, 78, 400, 300, 200, 200)
+        update_canvas()
+        frame = (frame + 1) % 5
+        delay(0.1)
     pass
 while True:
     # sprite_run()
