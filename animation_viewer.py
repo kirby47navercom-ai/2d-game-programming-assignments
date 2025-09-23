@@ -75,6 +75,8 @@ def sprite_jump():
         frame = (frame + 1) % 5
         delay(0.1)
     pass
+def sprite_spinattack():
+    pass
 while True:
     # sprite_run()
     # delay(1)
@@ -82,7 +84,9 @@ while True:
     # delay(1)
     # sprite_downattack()
     # delay(1)
-    sprite_jump()
+    #sprite_jump()
+    #delay(1)
+    sprite_spinattack()
     delay(1)
 
 
