@@ -15,4 +15,6 @@ class Ball:
         pass
 
     def draw(self):
-       pass
+        self.image.draw(self.x-common.court.window_left,self.y-common.court.window_bottom)
+
+
