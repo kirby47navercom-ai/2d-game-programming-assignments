@@ -5,7 +5,10 @@ import common
 class Ball:
     image = None
     def __init__(self):
-        pass
+        if Ball.image == None:
+            Ball.image = load_image('ball21x21.png')
+        self.x = random.randint(300,1500)
+        self.y = random.randint(300,800)
 
 
     def update(self):
