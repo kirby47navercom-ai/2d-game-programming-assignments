@@ -51,7 +51,8 @@ class Idle:
         # Removed timeout trigger for sleep.
 
     def draw(self):
-        sx, sy = get_canvas_width() // 2, get_canvas_height() // 2
+        sx = self.boy.x-common.court.window_left
+        sy = self.boy.y-common.court.window_bottom
         self.boy.font.draw(sx - 100, sy + 60, f'({self.boy.x:5.5}, {self.boy.y:5.5})', (255, 255, 0))
         if self.boy.face_dir == 1:  # right
             self.boy.image.clip_draw(int(self.boy.frame) * 100, 300, 100, 100, sx, sy)
@@ -77,7 +78,8 @@ class Run:
 
 
     def draw(self):
-        sx, sy = get_canvas_width() // 2, get_canvas_height() // 2
+        sx = self.boy.x - common.court.window_left
+        sy = self.boy.y - common.court.window_bottom
         self.boy.font.draw(sx - 100, sy + 60, f'({self.boy.x:5.5}, {self.boy.y:5.5})', (255, 255, 0))
 
         if self.boy.xdir == 0: # 위 아래로 움직이는 경우
@@ -117,12 +119,11 @@ class Boy:
 
     def update(self):
         self.state_machine.update()
-        # self.x = clamp(50, self.x, get_canvas_width() - 50)
-        # self.y = clamp(50, self.y, get_canvas_height() - 50)
-
+        self.x = clamp(50.0, self.x, common.court.w - 50.0)
+        self.y = clamp(50.0, self.y, common.court.h - 50.0)
         #물리 좌표계로 바꿔야함
-        self.x = clamp(get_canvas_width()/2,self.x, common.court.w - get_canvas_width()/2)
-        self.y = clamp(get_canvas_height()/2,self.y, common.court.h - get_canvas_height()/2)
+        #self.x = clamp(get_canvas_width()/2,self.x, common.court.w - get_canvas_width()/2)
+        #self.y = clamp(get_canvas_height()/2,self.y, common.court.h - get_canvas_height()/2)
 
     def handle_event(self, event):
         if event.key in (SDLK_LEFT, SDLK_RIGHT, SDLK_UP, SDLK_DOWN):
