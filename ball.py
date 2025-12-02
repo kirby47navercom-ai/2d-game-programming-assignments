@@ -10,6 +10,8 @@ class Ball:
         self.x = random.randint(300,1500)
         self.y = random.randint(300,800)
 
+        get_bb = [self.x, self.y, self.x + 21, self.y + 21]
+
 
     def update(self):
         pass
