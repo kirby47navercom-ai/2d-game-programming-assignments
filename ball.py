@@ -1,6 +1,8 @@
 import random
 from pico2d import load_image
 import common
+import game_world
+
 
 class Ball:
     image = None
@@ -10,8 +12,9 @@ class Ball:
         self.x = random.randint(300,1500)
         self.y = random.randint(300,800)
 
-        get_bb = [self.x, self.y, self.x + 21, self.y + 21]
 
+    def get_bb(self):
+        return self.x - 10, self.y - 10, self.x + 10, self.y + 10
 
     def update(self):
         pass
@@ -19,4 +22,7 @@ class Ball:
     def draw(self):
         self.image.draw(self.x-common.court.window_left,self.y-common.court.window_bottom)
 
-
+    def handle_collision(self, group, other):
+        print(0)
+        if group == 'boy:ball':
+            game_world.remove_object(self)
