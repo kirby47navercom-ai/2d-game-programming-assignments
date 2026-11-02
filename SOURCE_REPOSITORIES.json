@@ -1,0 +1,178 @@
+[
+  {
+    "name": "2DGP-DRILL-01",
+    "branch": "main",
+    "source_commit": "b35a9e84b18e1515cfd6ad33876b36f6b92eb63a",
+    "import_commit": "5e6218bbfbd060d3818b513a2815c1384b8d0809",
+    "source_url": "https://github.com/kirby47navercom-ai/2DGP-DRILL-01",
+    "branches": [
+      "refs/remotes/2DGP-DRILL-01/HEAD b35a9e84b18e1515cfd6ad33876b36f6b92eb63a",
+      "refs/remotes/2DGP-DRILL-01/main b35a9e84b18e1515cfd6ad33876b36f6b92eb63a"
+    ]
+  },
+  {
+    "name": "2DGP-DRILL-02",
+    "branch": "master",
+    "source_commit": "a8eb6f6686a21c28652cb48d10312854f3f21704",
+    "import_commit": "d17ef191f9f2286a3587c51cc6b3e9a1fa3e45f1",
+    "source_url": "https://github.com/kirby47navercom-ai/2DGP-DRILL-02",
+    "branches": [
+      "refs/remotes/2DGP-DRILL-02/HEAD a8eb6f6686a21c28652cb48d10312854f3f21704",
+      "refs/remotes/2DGP-DRILL-02/master a8eb6f6686a21c28652cb48d10312854f3f21704"
+    ]
+  },
+  {
+    "name": "2DGP-DRILL-03",
+    "branch": "master",
+    "source_commit": "e9ba9a3deafcb99fe55f8f8ab28cda9d2dfc6ddf",
+    "import_commit": "60815e15514935159b2112ca7fe28d940ab9b356",
+    "source_url": "https://github.com/kirby47navercom-ai/2DGP-DRILL-03",
+    "branches": [
+      "refs/remotes/2DGP-DRILL-03/HEAD e9ba9a3deafcb99fe55f8f8ab28cda9d2dfc6ddf",
+      "refs/remotes/2DGP-DRILL-03/master e9ba9a3deafcb99fe55f8f8ab28cda9d2dfc6ddf"
+    ]
+  },
+  {
+    "name": "2DGP-DRILL-04",
+    "branch": "master",
+    "source_commit": "14569d3a5c5d2e030876fd60b2bf0b1d885e87a7",
+    "import_commit": "7c3a5386afece55638560bb96bbb63d68660b0fc",
+    "source_url": "https://github.com/kirby47navercom-ai/2DGP-DRILL-04",
+    "branches": [
+      "refs/remotes/2DGP-DRILL-04/HEAD 14569d3a5c5d2e030876fd60b2bf0b1d885e87a7",
+      "refs/remotes/2DGP-DRILL-04/master 14569d3a5c5d2e030876fd60b2bf0b1d885e87a7"
+    ]
+  },
+  {
+    "name": "2DGP-DRILL-05",
+    "branch": "master",
+    "source_commit": "f123758f6e203077e7ec7cfe4fca252df1d8d5c5",
+    "import_commit": "068eff547e2018c904e34608798a86faf68ec93f",
+    "source_url": "https://github.com/kirby47navercom-ai/2DGP-DRILL-05",
+    "branches": [
+      "refs/remotes/2DGP-DRILL-05/HEAD f123758f6e203077e7ec7cfe4fca252df1d8d5c5",
+      "refs/remotes/2DGP-DRILL-05/master f123758f6e203077e7ec7cfe4fca252df1d8d5c5"
+    ]
+  },
+  {
+    "name": "2DGP-DRILL-07",
+    "branch": "master",
+    "source_commit": "ffa94e83eace809a41fad48c807a33d31efa0df5",
+    "import_commit": "a924988a431ef57c881820c4126098da8104a585",
+    "source_url": "https://github.com/kirby47navercom-ai/2DGP-DRILL-07",
+    "branches": [
+      "refs/remotes/2DGP-DRILL-07/HEAD ffa94e83eace809a41fad48c807a33d31efa0df5",
+      "refs/remotes/2DGP-DRILL-07/master ffa94e83eace809a41fad48c807a33d31efa0df5"
+    ]
+  },
+  {
+    "name": "2DGP-DRILL-08",
+    "branch": "master",
+    "source_commit": "dce0dea412256c22e3ad82f41d137bccdab8759e",
+    "import_commit": "6df09f6732e101049ec40080f1f25b38b3095f95",
+    "source_url": "https://github.com/kirby47navercom-ai/2DGP-DRILL-08",
+    "branches": [
+      "refs/remotes/2DGP-DRILL-08/HEAD dce0dea412256c22e3ad82f41d137bccdab8759e",
+      "refs/remotes/2DGP-DRILL-08/master dce0dea412256c22e3ad82f41d137bccdab8759e"
+    ]
+  },
+  {
+    "name": "2DGP-DRILL-09",
+    "branch": "master",
+    "source_commit": "e0e6b5053b8efc3f5f190e3592b1fdadc12d264f",
+    "import_commit": "999c735857959d0b825233897d04b36c4dd2b999",
+    "source_url": "https://github.com/kirby47navercom-ai/2DGP-DRILL-09",
+    "branches": [
+      "refs/remotes/2DGP-DRILL-09/HEAD e0e6b5053b8efc3f5f190e3592b1fdadc12d264f",
+      "refs/remotes/2DGP-DRILL-09/master e0e6b5053b8efc3f5f190e3592b1fdadc12d264f"
+    ]
+  },
+  {
+    "name": "2DGP-DRILL-10",
+    "branch": "master",
+    "source_commit": "5dc14d0d60bf575b0548a83930a5b83a64b9970e",
+    "import_commit": "30c10d2305bd8c3dce4dc1f8258bcd8fa2b49d3e",
+    "source_url": "https://github.com/kirby47navercom-ai/2DGP-DRILL-10",
+    "branches": [
+      "refs/remotes/2DGP-DRILL-10/HEAD 5dc14d0d60bf575b0548a83930a5b83a64b9970e",
+      "refs/remotes/2DGP-DRILL-10/master 5dc14d0d60bf575b0548a83930a5b83a64b9970e"
+    ]
+  },
+  {
+    "name": "2DGP-DRILL-11",
+    "branch": "master",
+    "source_commit": "a78ed35e3c7ebeeda20ee15c05602fcd17d00870",
+    "import_commit": "8e92e024dfd17d74be22f14557d0daede404590d",
+    "source_url": "https://github.com/kirby47navercom-ai/2DGP-DRILL-11",
+    "branches": [
+      "refs/remotes/2DGP-DRILL-11/HEAD a78ed35e3c7ebeeda20ee15c05602fcd17d00870",
+      "refs/remotes/2DGP-DRILL-11/master a78ed35e3c7ebeeda20ee15c05602fcd17d00870"
+    ]
+  },
+  {
+    "name": "2DGP-DRILL-12",
+    "branch": "master",
+    "source_commit": "66678242962a5e42fff1d8776a0f321ca3fe326a",
+    "import_commit": "5b56356ac6a679587164c6732cf608052a0fd26e",
+    "source_url": "https://github.com/kirby47navercom-ai/2DGP-DRILL-12",
+    "branches": [
+      "refs/remotes/2DGP-DRILL-12/HEAD 66678242962a5e42fff1d8776a0f321ca3fe326a",
+      "refs/remotes/2DGP-DRILL-12/master 66678242962a5e42fff1d8776a0f321ca3fe326a"
+    ]
+  },
+  {
+    "name": "2DGP-DRILL-13",
+    "branch": "master",
+    "source_commit": "5d63def2ccd7e2f68e02d5599d2d60c2ea15568c",
+    "import_commit": "1cc0fd2319496df677242c8573967d58eb9becb9",
+    "source_url": "https://github.com/kirby47navercom-ai/2DGP-DRILL-13",
+    "branches": [
+      "refs/remotes/2DGP-DRILL-13/HEAD 5d63def2ccd7e2f68e02d5599d2d60c2ea15568c",
+      "refs/remotes/2DGP-DRILL-13/master 5d63def2ccd7e2f68e02d5599d2d60c2ea15568c"
+    ]
+  },
+  {
+    "name": "2DGP-DRILL-14",
+    "branch": "master",
+    "source_commit": "0a50e169287e19b18d0a1d14e30837cc7f879ae3",
+    "import_commit": "b38ff1b7a5bdfaf974f970870be9ba41c85ca4d9",
+    "source_url": "https://github.com/kirby47navercom-ai/2DGP-DRILL-14",
+    "branches": [
+      "refs/remotes/2DGP-DRILL-14/HEAD 0a50e169287e19b18d0a1d14e30837cc7f879ae3",
+      "refs/remotes/2DGP-DRILL-14/master 0a50e169287e19b18d0a1d14e30837cc7f879ae3"
+    ]
+  },
+  {
+    "name": "2DGP-DRILL-16",
+    "branch": "master",
+    "source_commit": "f24ee29939c3da0c9f578f9b3f8a36f48f4cef7e",
+    "import_commit": "c2d22905f31e82b3662267315b72c6ad8c79be19",
+    "source_url": "https://github.com/kirby47navercom-ai/2DGP-DRILL-16",
+    "branches": [
+      "refs/remotes/2DGP-DRILL-16/HEAD f24ee29939c3da0c9f578f9b3f8a36f48f4cef7e",
+      "refs/remotes/2DGP-DRILL-16/master f24ee29939c3da0c9f578f9b3f8a36f48f4cef7e"
+    ]
+  },
+  {
+    "name": "2DGP-DRILL-18",
+    "branch": "master",
+    "source_commit": "952ac0792257a6d3151c7597ab40d80412d3486b",
+    "import_commit": "bc18827dd713a90967d91fe11a7560e4f1fe2279",
+    "source_url": "https://github.com/kirby47navercom-ai/2DGP-DRILL-18",
+    "branches": [
+      "refs/remotes/2DGP-DRILL-18/HEAD 952ac0792257a6d3151c7597ab40d80412d3486b",
+      "refs/remotes/2DGP-DRILL-18/master 952ac0792257a6d3151c7597ab40d80412d3486b"
+    ]
+  },
+  {
+    "name": "2DGP-DRILL1",
+    "branch": "main",
+    "source_commit": "b2fdf6b2f8f655be3c730134e29777a99b6034d4",
+    "import_commit": "58a5ac95d8e82d0e06ba0f38edf8a702e3172fa8",
+    "source_url": "https://github.com/kirby47navercom-ai/2DGP-DRILL1",
+    "branches": [
+      "refs/remotes/2DGP-DRILL1/HEAD b2fdf6b2f8f655be3c730134e29777a99b6034d4",
+      "refs/remotes/2DGP-DRILL1/main b2fdf6b2f8f655be3c730134e29777a99b6034d4"
+    ]
+  }
+]
