@@ -1,6 +1,6 @@
 # 2d게임프로그래밍과제
 
-2D 게임 프로그래밍 DRILL 과제 16개를 과제별 폴더로 모은 저장소예요.
+2D 게임 프로그래밍 DRILL·DAY 과제 18개를 과제별 폴더로 모은 저장소예요.
 
 ## 과제 목록
 
@@ -22,6 +22,8 @@
 | [2DGP-DRILL-16](2DGP-DRILL-16/) | [원본](https://github.com/kirby47navercom-ai/2DGP-DRILL-16) | `master` |
 | [2DGP-DRILL-18](2DGP-DRILL-18/) | [원본](https://github.com/kirby47navercom-ai/2DGP-DRILL-18) | `master` |
 | [2DGP-DRILL1](2DGP-DRILL1/) | [원본](https://github.com/kirby47navercom-ai/2DGP-DRILL1) | `main` |
+| [DAY3](DAY3/) | [원본](https://github.com/kirby47navercom-ai/DAY3) | `main` |
+| [DAY4](DAY4/) | [원본](https://github.com/kirby47navercom-ai/DAY4) | `main` |
 
 ## 실행
 

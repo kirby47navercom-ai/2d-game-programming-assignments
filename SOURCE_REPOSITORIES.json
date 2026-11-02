@@ -158,5 +158,25 @@
     "branches": [
       "refs/remotes/2DGP-DRILL1/main b2fdf6b2f8f655be3c730134e29777a99b6034d4"
     ]
+  },
+  {
+    "name": "DAY3",
+    "branch": "main",
+    "source_commit": "dfc2b52fd321c267338c538ec34687ff1e03101a",
+    "import_commit": "3491d16f125f5ea13e55f2b504a67715bf6dd110",
+    "source_url": "https://github.com/kirby47navercom-ai/DAY3",
+    "branches": [
+      "refs/remotes/DAY3/main dfc2b52fd321c267338c538ec34687ff1e03101a"
+    ]
+  },
+  {
+    "name": "DAY4",
+    "branch": "main",
+    "source_commit": "7883f1b4f97ae5f2180af4abe69ada0146e4f2f4",
+    "import_commit": "1d996395915459de02a274660e2e9994b006b106",
+    "source_url": "https://github.com/kirby47navercom-ai/DAY4",
+    "branches": [
+      "refs/remotes/DAY4/main 7883f1b4f97ae5f2180af4abe69ada0146e4f2f4"
+    ]
   }
 ]
